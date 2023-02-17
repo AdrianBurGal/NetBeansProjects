@@ -1,3 +1,4 @@
+
 package Actividad_Aplicacion_7_15;
 
 public class Main {
@@ -5,13 +6,14 @@ public class Main {
     public static void main(String[] args) {
 
         boolean iguales;
-        Calendario fecha1 = new Calendario(15, 02, 2023);
+        
+        Calendario fecha1 = new Calendario(15, 2, 2023);
 
         fecha1.mostrar();
 
         fecha1.incrementarDia();
         fecha1.incrementarMes();
-        fecha1.incrementarAño();
+        fecha1.incrementarAño(2023);
 
         fecha1.mostrar();
 
